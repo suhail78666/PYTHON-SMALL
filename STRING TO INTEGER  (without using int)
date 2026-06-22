@@ -1,0 +1,6 @@
+a="123"
+for i in a:
+    f=ord(i)-ord("0")
+    d=f+0*10
+    print (d,end="")
+print(type(d))

@@ -1,4 +1,3 @@
 a = ["aka", "mbappe", "suarez"]
-b = "".join(a)
-t = sum(1 for i in b if i in "aeiouAEIOU")
+t = [sum(1 for ch in word if ch in "aeiouAEIOU") for word in a]
 print(t)
